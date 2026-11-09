@@ -1,0 +1,33 @@
+Feature,Category,Risk group,Customers in category,Group customers,Percentage within risk group
+Contract,Month-to-month,Unflagged,261,890,29.325842696629213
+Contract,One year,Unflagged,293,890,32.92134831460674
+Contract,Two year,Unflagged,336,890,37.752808988764045
+Contract,Month-to-month,Flagged,512,519,98.65125240847784
+Contract,One year,Flagged,7,519,1.348747591522158
+Contract,Two year,Flagged,0,519,0.0
+InternetService,DSL,Unflagged,367,890,41.235955056179776
+InternetService,Fiber optic,Unflagged,227,890,25.50561797752809
+InternetService,No,Unflagged,296,890,33.258426966292134
+InternetService,DSL,Flagged,117,519,22.54335260115607
+InternetService,Fiber optic,Flagged,386,519,74.373795761079
+InternetService,No,Flagged,16,519,3.0828516377649327
+PaymentMethod,Bank transfer (automatic),Unflagged,241,890,27.078651685393258
+PaymentMethod,Credit card (automatic),Unflagged,249,890,27.97752808988764
+PaymentMethod,Electronic check,Unflagged,161,890,18.089887640449437
+PaymentMethod,Mailed check,Unflagged,239,890,26.853932584269664
+PaymentMethod,Bank transfer (automatic),Flagged,59,519,11.368015414258188
+PaymentMethod,Credit card (automatic),Flagged,60,519,11.560693641618498
+PaymentMethod,Electronic check,Flagged,313,519,60.308285163776496
+PaymentMethod,Mailed check,Flagged,87,519,16.76300578034682
+OnlineSecurity,No,Unflagged,255,890,28.651685393258425
+OnlineSecurity,No internet service,Unflagged,296,890,33.258426966292134
+OnlineSecurity,Yes,Unflagged,339,890,38.08988764044944
+OnlineSecurity,No,Flagged,446,519,85.9344894026975
+OnlineSecurity,No internet service,Flagged,16,519,3.0828516377649327
+OnlineSecurity,Yes,Flagged,57,519,10.982658959537572
+TechSupport,No,Unflagged,262,890,29.43820224719101
+TechSupport,No internet service,Unflagged,296,890,33.258426966292134
+TechSupport,Yes,Unflagged,332,890,37.30337078651685
+TechSupport,No,Flagged,440,519,84.77842003853564
+TechSupport,No internet service,Flagged,16,519,3.0828516377649327
+TechSupport,Yes,Flagged,63,519,12.138728323699421

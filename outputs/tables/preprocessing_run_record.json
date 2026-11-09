@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-10-12T09:29:51.491995+05:30",
+  "responsible_member": "IT24103676",
+  "python_version": "3.13.16",
+  "pandas_version": "2.2.3",
+  "numpy_version": "2.1.3",
+  "scikit_learn_version": "1.6.1",
+  "development_file": "/content/drive/MyDrive/ML 2026-DS-77 Telco Customer Churn/data/splits/development.csv",
+  "development_sha256": "870361e874d00616deab0183253b53faa27ab80c6a08fd3c3c72484af8cf6947",
+  "development_records": 5634,
+  "source_predictor_count": 19,
+  "module_file": "/content/drive/MyDrive/ML 2026-DS-77 Telco Customer Churn/src/telco_preprocessing.py",
+  "module_sha256": "db86b651f1e7834f724bb3fdc9f25e76be00d9df0f10f2d963fbd93e4828439e",
+  "diagnostic_split": {
+    "source": "development data only",
+    "validation_fraction": 0.2,
+    "random_state": 42,
+    "stratified": true,
+    "training_records": 4507,
+    "validation_records": 1127
+  },
+  "verification_tables": [
+    "preprocessing_missingness.csv",
+    "preprocessing_diagnostic_checks.csv",
+    "preprocessing_unknown_category_checks.csv",
+    "preprocessing_module_checks.csv"
+  ],
+  "scope": "Preprocessing technical checks only; predictive performance has not been evaluated."
+}

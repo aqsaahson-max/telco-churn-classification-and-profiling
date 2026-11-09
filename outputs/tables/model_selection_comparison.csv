@@ -1,0 +1,5 @@
+Model,Configuration,Parameters,Mean_validation_AP,SD_validation_AP,Mean_training_AP
+Random forest,1,"{""model__class_weight"": null, ""model__max_depth"": 10, ""model__min_samples_leaf"": 10}",0.6662477929515211,0.02442303248267771,0.7567560941830748
+Logistic regression,3,"{""model__C"": 1.0, ""model__class_weight"": null}",0.6607133719092931,0.019423110647370942,0.6675057477854335
+Shallow decision tree,9,"{""model__class_weight"": null, ""model__max_depth"": 6, ""model__min_samples_leaf"": 20}",0.6123598357024318,0.02134764231659248,0.6835850085869724
+Dummy prior,0,{},0.2653532460941748,0.00010537167400404933,0.2653532147272044

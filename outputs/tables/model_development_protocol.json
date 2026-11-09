@@ -1,0 +1,226 @@
+{
+  "development_sha256": "870361e874d00616deab0183253b53faa27ab80c6a08fd3c3c72484af8cf6947",
+  "preprocessing_module_sha256": "db86b651f1e7834f724bb3fdc9f25e76be00d9df0f10f2d963fbd93e4828439e",
+  "cv_manifest_sha256": "30396251e982fe48e90fbd7d1db1165bc5824efa85df516efc7474e5567cefba",
+  "cv_settings": {
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42,
+    "development_sha256": "870361e874d00616deab0183253b53faa27ab80c6a08fd3c3c72484af8cf6947",
+    "positive_class": 1,
+    "positive_class_meaning": "Churn = Yes"
+  },
+  "scikit_learn_version": "1.6.1",
+  "positive_class": 1,
+  "selection_metric": "mean_validation_average_precision",
+  "use_unrounded_scores_for_selection": true,
+  "initial_estimator_settings": {
+    "Dummy prior": {
+      "constant": null,
+      "random_state": null,
+      "strategy": "prior"
+    },
+    "Logistic regression": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 2000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": null,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "Shallow decision tree": {
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": 4,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 20,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "random_state": 42,
+      "splitter": "best"
+    },
+    "Random forest": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 5,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 200,
+      "n_jobs": 1,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "numerical_scaling": {
+    "Dummy prior": false,
+    "Logistic regression": true,
+    "Shallow decision tree": false,
+    "Random forest": false
+  },
+  "ordered_tuning_configurations": {
+    "Logistic regression": [
+      {
+        "model__C": 0.1,
+        "model__class_weight": null
+      },
+      {
+        "model__C": 0.1,
+        "model__class_weight": "balanced"
+      },
+      {
+        "model__C": 1.0,
+        "model__class_weight": null
+      },
+      {
+        "model__C": 1.0,
+        "model__class_weight": "balanced"
+      },
+      {
+        "model__C": 10.0,
+        "model__class_weight": null
+      },
+      {
+        "model__C": 10.0,
+        "model__class_weight": "balanced"
+      }
+    ],
+    "Shallow decision tree": [
+      {
+        "model__max_depth": 3,
+        "model__min_samples_leaf": 20,
+        "model__class_weight": null
+      },
+      {
+        "model__max_depth": 3,
+        "model__min_samples_leaf": 20,
+        "model__class_weight": "balanced"
+      },
+      {
+        "model__max_depth": 3,
+        "model__min_samples_leaf": 10,
+        "model__class_weight": null
+      },
+      {
+        "model__max_depth": 3,
+        "model__min_samples_leaf": 10,
+        "model__class_weight": "balanced"
+      },
+      {
+        "model__max_depth": 4,
+        "model__min_samples_leaf": 20,
+        "model__class_weight": null
+      },
+      {
+        "model__max_depth": 4,
+        "model__min_samples_leaf": 20,
+        "model__class_weight": "balanced"
+      },
+      {
+        "model__max_depth": 4,
+        "model__min_samples_leaf": 10,
+        "model__class_weight": null
+      },
+      {
+        "model__max_depth": 4,
+        "model__min_samples_leaf": 10,
+        "model__class_weight": "balanced"
+      },
+      {
+        "model__max_depth": 6,
+        "model__min_samples_leaf": 20,
+        "model__class_weight": null
+      },
+      {
+        "model__max_depth": 6,
+        "model__min_samples_leaf": 20,
+        "model__class_weight": "balanced"
+      },
+      {
+        "model__max_depth": 6,
+        "model__min_samples_leaf": 10,
+        "model__class_weight": null
+      },
+      {
+        "model__max_depth": 6,
+        "model__min_samples_leaf": 10,
+        "model__class_weight": "balanced"
+      }
+    ],
+    "Random forest": [
+      {
+        "model__max_depth": 10,
+        "model__min_samples_leaf": 10,
+        "model__class_weight": null
+      },
+      {
+        "model__max_depth": 10,
+        "model__min_samples_leaf": 10,
+        "model__class_weight": "balanced"
+      },
+      {
+        "model__max_depth": 10,
+        "model__min_samples_leaf": 5,
+        "model__class_weight": null
+      },
+      {
+        "model__max_depth": 10,
+        "model__min_samples_leaf": 5,
+        "model__class_weight": "balanced"
+      },
+      {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 10,
+        "model__class_weight": null
+      },
+      {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 10,
+        "model__class_weight": "balanced"
+      },
+      {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 5,
+        "model__class_weight": null
+      },
+      {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 5,
+        "model__class_weight": "balanced"
+      }
+    ]
+  },
+  "within_model_exact_tie": "first configuration in saved list",
+  "between_model_exact_tie_order": [
+    "Dummy prior",
+    "Logistic regression",
+    "Shallow decision tree",
+    "Random forest"
+  ],
+  "threshold_rule": "maximise F1 on selected configuration OOF scores",
+  "threshold_exact_tie": "highest threshold among exact F1 maximisers",
+  "flag_rule": "score >= threshold",
+  "resampling": false
+}

@@ -1,0 +1,3 @@
+Variant,Validation rows,Output features,Matches previous pipeline
+Scaled,1127,46,True
+Unscaled,1127,46,True

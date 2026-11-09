@@ -1,0 +1,8 @@
+Check,Inconsistent records
+OnlineSecurity agrees with InternetService,0
+OnlineBackup agrees with InternetService,0
+DeviceProtection agrees with InternetService,0
+TechSupport agrees with InternetService,0
+StreamingTV agrees with InternetService,0
+StreamingMovies agrees with InternetService,0
+MultipleLines agrees with PhoneService,0

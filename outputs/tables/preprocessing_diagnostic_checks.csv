@@ -1,0 +1,3 @@
+Variant,Training rows,Validation rows,Output features,No missing/infinite outputs,Training-only medians verified
+Scaled,4507,1127,46,True,True
+Unscaled,4507,1127,46,True,True

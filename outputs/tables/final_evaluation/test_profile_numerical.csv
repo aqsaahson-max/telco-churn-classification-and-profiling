@@ -1,0 +1,7 @@
+Feature,Risk group,Customers,Observed values,Missing values,Median,25th percentile,75th percentile
+tenure,Unflagged,890,890,0,46.5,22.0,63.0
+tenure,Flagged,519,519,0,8.0,2.0,22.0
+MonthlyCharges,Unflagged,890,890,0,58.35,20.85,85.6625
+MonthlyCharges,Flagged,519,519,0,78.75,68.6,90.55
+TotalCharges,Unflagged,890,887,3,1885.15,795.175,4700.525
+TotalCharges,Flagged,519,519,0,556.35,131.475,1904.75

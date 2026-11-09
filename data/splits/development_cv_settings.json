@@ -1,0 +1,8 @@
+{
+  "n_splits": 5,
+  "shuffle": true,
+  "random_state": 42,
+  "development_sha256": "870361e874d00616deab0183253b53faa27ab80c6a08fd3c3c72484af8cf6947",
+  "positive_class": 1,
+  "positive_class_meaning": "Churn = Yes"
+}

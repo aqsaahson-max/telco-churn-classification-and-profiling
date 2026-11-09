@@ -1,0 +1,24 @@
+{
+  "recorded_at_utc": "2026-10-12T04:11:27.148594+00:00",
+  "responsible_member": "IT24103677",
+  "model_sha256": "d8eb72a93a5d75b234d274bc570d61880bc7595671791bd009567455988fb5e4",
+  "frozen_procedure_sha256": "86f842f200a573aeeae6c2896b156b9ce53f8ecbf7ea3b96b2f3fdeb42da399c",
+  "preprocessing_module_sha256": "db86b651f1e7834f724bb3fdc9f25e76be00d9df0f10f2d963fbd93e4828439e",
+  "test_file_sha256": "565ec482a85142f3580758541e62d9ba1350ad5088403a3c303bba4b1a3d8071",
+  "original_split_manifest_sha256": "2c8741339553f338680b850e7d39703aa0df90562c0c14e3c9670abe8534aee0",
+  "original_split_record_sha256": "4e68eff73996ad995bc54704facbb1c5a5b680511dcb2ba94039d8e97308cfab",
+  "test_records": 1409,
+  "threshold": 0.319015704046037,
+  "flag_rule": "score >= threshold",
+  "software_versions": {
+    "python_version": "3.13.16",
+    "pandas_version": "2.2.3",
+    "numpy_version": "2.1.3",
+    "scikit_learn_version": "1.6.1",
+    "joblib_version": "1.6.0"
+  },
+  "test_membership_and_source_values_verified": true,
+  "evaluation_method": "Saved fitted pipeline applied without fitting; threshold loaded from frozen procedure.",
+  "summary_sha256": "a8ba97261e120f1f969959acca819eb2f477062d259ad039934f3871bd4533ca",
+  "predictions_sha256": "10bdd4485a628532269e427699918a53fbac0863ece4ebac76e0e7ebdc3c6faf"
+}

@@ -1,0 +1,9 @@
+# Core versions recorded in the project. Python 3.13.15 originally;
+# later verified runs used 3.13.16. This is not a full environment lock.
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.6.1
+joblib==1.6.0
+# Original plotting-library version was not recorded.
+matplotlib
+# google.colab is supplied by the Colab runtime, not installed here.

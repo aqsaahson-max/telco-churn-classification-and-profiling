@@ -1,0 +1,4 @@
+Model,Configuration,Parameters,Mean_training_AP,Mean_validation_AP,SD_validation_AP,Mean_fit_seconds,Training_validation_AP_gap
+Logistic regression,3,"{""model__C"": 1.0, ""model__class_weight"": null}",0.6675057477854335,0.6607133719092931,0.019423110647370942,0.13852768400001877,0.006792375876140344
+Random forest,1,"{""model__class_weight"": null, ""model__max_depth"": 10, ""model__min_samples_leaf"": 10}",0.7567560941830748,0.6662477929515211,0.02442303248267771,1.1984747072000572,0.09050830123155362
+Shallow decision tree,9,"{""model__class_weight"": null, ""model__max_depth"": 6, ""model__min_samples_leaf"": 20}",0.6835850085869724,0.6123598357024318,0.02134764231659248,0.09670154520003962,0.07122517288454056

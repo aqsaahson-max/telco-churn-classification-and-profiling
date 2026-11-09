@@ -1,0 +1,2 @@
+Model,Test records,Recorded churners,Threshold,Test AP,Test precision,Test recall,Test F1,Flagged customers,Flagged percentage,True positives,False positives,False negatives,True negatives
+Random forest,1409,374,0.319015704046037,0.6565013852369512,0.5491329479768786,0.7620320855614974,0.6382978723404256,519,36.834634492547906,285,234,89,801

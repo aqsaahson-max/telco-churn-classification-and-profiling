@@ -1,0 +1,41 @@
+Feature,Category,Customers,Churners,Non-churners,Churn percentage
+gender,Female,2801,746,2055,26.63
+gender,Male,2833,749,2084,26.44
+SeniorCitizen,0,4714,1117,3597,23.7
+SeniorCitizen,1,920,378,542,41.09
+Partner,No,2905,952,1953,32.77
+Partner,Yes,2729,543,2186,19.9
+Dependents,No,3955,1240,2715,31.35
+Dependents,Yes,1679,255,1424,15.19
+PhoneService,No,559,135,424,24.15
+PhoneService,Yes,5075,1360,3715,26.8
+MultipleLines,No,2685,672,2013,25.03
+MultipleLines,No phone service,559,135,424,24.15
+MultipleLines,Yes,2390,688,1702,28.79
+InternetService,DSL,1937,362,1575,18.69
+InternetService,Fiber optic,2483,1045,1438,42.09
+InternetService,No,1214,88,1126,7.25
+OnlineSecurity,No,2797,1173,1624,41.94
+OnlineSecurity,No internet service,1214,88,1126,7.25
+OnlineSecurity,Yes,1623,234,1389,14.42
+OnlineBackup,No,2442,980,1462,40.13
+OnlineBackup,No internet service,1214,88,1126,7.25
+OnlineBackup,Yes,1978,427,1551,21.59
+DeviceProtection,No,2472,963,1509,38.96
+DeviceProtection,No internet service,1214,88,1126,7.25
+DeviceProtection,Yes,1948,444,1504,22.79
+TechSupport,No,2771,1157,1614,41.75
+TechSupport,No internet service,1214,88,1126,7.25
+TechSupport,Yes,1649,250,1399,15.16
+StreamingTV,No,2226,737,1489,33.11
+StreamingTV,No internet service,1214,88,1126,7.25
+StreamingTV,Yes,2194,670,1524,30.54
+StreamingMovies,No,2217,745,1472,33.6
+StreamingMovies,No internet service,1214,88,1126,7.25
+StreamingMovies,Yes,2203,662,1541,30.05
+PaperlessBilling,No,2303,369,1934,16.02
+PaperlessBilling,Yes,3331,1126,2205,33.8
+PaymentMethod,Bank transfer (automatic),1244,201,1043,16.16
+PaymentMethod,Credit card (automatic),1213,181,1032,14.92
+PaymentMethod,Electronic check,1891,865,1026,45.74
+PaymentMethod,Mailed check,1286,248,1038,19.28

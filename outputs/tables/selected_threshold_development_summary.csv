@@ -1,0 +1,2 @@
+Model,Threshold,OOF precision,OOF recall,OOF F1,Flagged customers,Flagged percentage,True positives,False positives,False negatives,True negatives
+Random forest,0.319015704046037,0.5547337278106509,0.7525083612040134,0.6386602327561737,2028,35.99574014909478,1125,903,370,3236
