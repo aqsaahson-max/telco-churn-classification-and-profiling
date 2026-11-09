@@ -1,6 +1,6 @@
 # Telco Customer Churn Classification and High Risk Profiling
 
-**Does a more complex model perform better—and what does its customer shortlist mean?**
+**Does a more complex model perform better and what does its customer shortlist mean?**
 
 A four-member IT3091 Machine Learning project (Group 2026-DS-77) using 7,043 customer records. We compared model families, selected a decision threshold using development data, evaluated a frozen procedure on reserved records, and described the flagged customers. This is an academic classification study, not a deployed retention system.
 
